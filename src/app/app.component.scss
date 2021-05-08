@@ -1,0 +1,339 @@
+ .contenedor {
+     width: 100%;
+     height: 316px;
+     background: white;
+     padding: 2.5rem 2.5rem 26.5rem 2.5rem;
+     display: flex;
+ }
+
+.cabecero {
+    background:rgb(132, 10, 189);
+    height: 10vw; 
+    width: 10vw; 
+    display: flex;
+    position: absolute;
+    top: 166px;
+    border-radius: 5px 0px 20px 0px;
+    box-shadow:  3px 10px 10px rgba(24, 23, 23, 0.3);
+}
+.cabecero:hover {  
+    box-shadow:  10px 18px 26px rgba(5, 5, 5, 0.3);
+}
+.cabecero2 {
+    background:rgb(58, 7, 83);
+    height: 10vw; 
+    width: 10vw; 
+    display: flex;
+    position: absolute;
+    top: 80px;
+    border-radius: 5px 18px 18px 10px;
+}
+
+ header {
+     border-radius: 20px;
+     width: 100%;
+     height: 250px;
+     background: url('../assets/img/1.jpg');
+     display: flex;
+     margin: auto;
+     padding: 12rem;
+     background-size: cover;
+ }
+
+.content {
+    width: 100%;
+    height: auto;
+    background: white ;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.box {
+    width: 295px;
+    height: 435px;
+    background: transparent;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 10px;
+     
+}
+
+#cuadro {
+    background:white ;
+    border-radius: 10px;
+    width: auto;
+    height: 7vw;
+    margin-top: 1rem;
+    font-size: 10px;
+    margin-bottom: .7rem;
+    box-shadow:  10px 18px 26px rgba(70, 69, 69, 0.3);
+}
+#cuadro:hover {  
+    box-shadow:  10px 18px 26px rgba(5, 5, 5, 0.3);
+}
+#cuadro_int{
+    background:#D0ECE7 ;
+    border-radius: 10px;
+    width: 7vw;
+    height: 7vw;
+    float: right;
+    position: relative;
+    top: -27px;
+    
+}
+.box #activar {
+    background: #6C5DD3;
+    border-radius: 10px;
+    width: 7vw;
+    height: 7vw;
+    float: right;
+    position: relative;
+    top: -27px;
+}
+#cuadro_int:hover {
+    background: #6C5DD3;
+    
+}
+h4 {
+    text-align: start;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    transform: translateX(-50%) translateY(-50%);
+}
+h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+h6 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+p{
+    position: relative;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px !important;
+}
+.p {
+    margin-bottom: 2rem;
+}
+
+.tarjeta {
+    background-image: url('../assets/img/edificio-prueba.jpg');
+    border-radius: 30px;
+    width: 100%;
+    height: 23vw;
+    align-items: center;
+    margin-top: 1.2rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -1px 25px 46px #141313;
+}
+#museo {
+    background-image: url('../assets/img/colorido.jpg');
+    border-radius: 30px;
+    width: 90%;
+    height: 7vw;
+    align-items: center;
+    margin-top: 1.5rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    
+}
+#mountain {
+    background-image: url('../assets/img/coloridos.jpg');
+    border-radius: 30px;
+    width: 90%;
+    height: 15vw;
+    align-items: center;
+    margin-top: 1.5rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+}
+.mas {
+    background:#6C5DD3;
+    border-radius: 30px 30px 30px 30px;
+    align-items: end;
+    float: left;
+    width: 6vw;
+    height: 15vw; 
+    position: static;
+    top: -1px;
+}
+#usuario1 {
+    background-image: url('../assets/img/user1.jpg');
+    border-radius: 2.5px;
+    width: 2.5vw;
+    height: 2.5vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    float: right;
+    margin: 1px;
+}
+#usuario2 {
+    background-image: url('../assets/img/user2.jpg');
+    border-radius: 2.5px;
+    width: 2.5vw;
+    height: 2.5vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    float: right;
+    margin: 1px;
+}
+#usuario3 {
+    background-image: url('../assets/img/user3.jpg');
+    border-radius: 2.5px;
+    width: 2.5vw;
+    height: 2.5vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    float: right;
+    margin: 1px;
+}
+
+.card{
+    background: white;
+    height: 10vw;    
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    top: -158px;
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    box-shadow:  3px 10px 10px rgba(83, 83, 83, 0.3);
+}
+.card:hover {  
+    box-shadow:  3px 10px 10px rgba(0,0,0,0.3);
+}
+
+#prueba {
+    background:#D0ECE7 ;
+    border-radius: 10px;
+    align-items: end;
+    float: left;
+    width: 7vw;
+    height: 7vw; 
+    position: relative;
+    top: -27px;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    background: #FBFCFC;
+    width: auto;
+    height: auto;
+}
+.location {
+    background: white;
+    height: 16vw;    
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    border-style: dotted;
+    position: relative;
+    top: -158px;
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    box-shadow:  3px 10px 10px rgba(83, 83, 83, 0.3);
+}
+#location {
+    background-image: url('../assets/img/Chicago.png');
+    width: 90%;
+    height: 12vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .box {
+        width: 40%;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box {
+        width: 90%;
+        height: 435px;
+        margin: 5px;
+        box-sizing: border-box;
+        font-size: 10px;
+
+    }
+}
+@media screen and (max-width: 650px) {
+    .box{
+        width: 70%;
+        height: 230px;
+    }
+    .contenedor {
+        width: 98%;
+        height: 316px;
+        background: white;
+        padding: .1rem .1rem .1rem .1rem;
+        display: flex;
+    }
+    header{
+        padding-bottom: 6rem;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box{
+        width: 70%;
+        height: 230px;
+    }
+    .contenedor {
+        width: 20%;
+        height: 316px;
+        background: white;
+        padding: .1rem .1rem .1rem .1rem;
+        display: flex;
+    }
+    header{
+        padding-bottom: 6rem;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+   
+}
+
+
+
+ 
+

@@ -1,0 +1,180 @@
+
+<div class="contenedor">
+  <header><h4> {{dataClima.name}} </h4></header>
+  
+</div>
+
+<div class="cabecero" >
+  <h1>{{dataClima.temp_celcius}} °</h1>
+</div>
+<div class="cabecero2" >
+
+  <h1><i class="fa fa-cloud"></i> </h1>
+</div>
+
+<!-- <div class="contenedors">
+
+<div class="row" id="columna" >
+  <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="primero"><strong>Tree Days</strong> Forecast
+
+    <div id="contenedor1">
+      <div id="contenedor2">
+        <h5>Aqui va el clima</h5>
+      </div>
+
+      <h5>Friday</h5>
+    </div>
+
+    <div id="contenedor1">
+      <div id="contenedorClima">
+        <h5>Aqui va el clima</h5>
+      </div>
+      <h5>Friday</h5>
+    </div>
+
+    <div id="contenedor1">
+      <div id="contenedorClima">
+        <h5>Aqui va el clima</h5>
+      </div>
+      <h5>Friday</h5>
+    </div>
+   
+
+  </div>
+
+
+
+  <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="segundo"> <strong>Place to</strong> visit 
+    <div id="tarjeta">
+    </div>
+  </div>
+
+
+
+  <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="tercero">
+    <input type="text" style="height: 20px; width: 55%;">
+    <div id="usuario1"></div>
+    <div id="usuario2"></div>
+    <div id="usuario3"></div>
+
+    <div id="museo"><h5>Art Science Museum</h5></div>
+
+    <div id="mountain"><h5>Art Science Museum</h5></div>
+</div>
+
+
+
+<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="cuarto ">
+  <div class="card" >
+    <div id="prueba"></div>
+      <div >
+        <a align="left">Humedad </a>
+        <a>Northwest </a>
+        <a align="reight"> 87 </a>
+      </div>
+  </div>
+
+  <div class="card" >
+    <div id="prueba"></div>
+      <div >
+        <a align="left">Humedad </a>
+        <a>Northwest </a>
+        <a align="reight"> 87 </a>
+      </div>
+  </div>
+
+  <div class="card" >
+    <div id="prueba"></div>
+      <div >
+        <a align="left">Humedad </a>
+        <a>Northwest </a>
+        <a align="reight"> 87 </a>
+      </div>
+  </div>
+
+</div>
+
+
+  </div>
+</div> -->
+<div class="content">
+
+  <div class="box">
+    <div class="p"><p><strong>3 Days</strong> Forecast </p></div>
+      <div  id="cuadro">
+        <h6>Friday</h6>
+        <div id="activar">
+          <h6></h6>
+        </div>
+      </div>
+    
+      <div id="cuadro">
+        <h6>Friday</h6>
+        <div id="cuadro_int">
+          <h6></h6>
+        </div>
+      </div>
+ 
+      <div id="cuadro">
+        <h6>Friday</h6>
+        <div id="cuadro_int">
+          <h6></h6>
+        </div>
+      </div>
+  </div>
+
+  <div class="box">
+    <div class="p"><p><strong>Place to</strong> Visit </p></div>
+    <div class="tarjeta">
+
+    </div>
+  </div>
+
+  <div class="box">
+   
+      <img src="assets/img/more.svg" style="width: 10px; height: 10px;">
+      <input style="border: none;" style="height: 30px; width: 55%;" placeholder="Top Reviews">
+
+      <div id="usuario1"></div>
+      <div id="usuario2"></div>
+      <div id="usuario3"></div>
+  
+      <div id="museo"><h5>Art Science Museum</h5></div>
+  
+      <div id="mountain">
+        <h5>Art Science Museum</h5>
+        <div class="mas"></div>
+      </div>
+
+
+  </div>
+
+
+  <div class="box">
+    <div class="card" >
+      <h6> {{weatherData.temp_celcius}}° </h6>
+      <div id="prueba"><h6><i class="fa fa-cloud"></i></h6></div>
+        <div >
+          <a align="left">Humedad: {{weatherData.main.humidity}} </a>
+          <a>Northwest </a>
+          <a align="reight"> {{weatherData.wind.speed}} K/H </a>
+        </div>
+    </div>
+  
+    <div class="card" >
+      <h6>{{parisData.temp_celcius}} °</h6>
+      <div id="prueba"><h6><i class="fa fa-cloud"></i> </h6></div>
+        <div >
+          <a align="left"> Humedad: {{parisData.main.humidity}}  </a>
+          <a>Northwest </a>
+          <a align="reight">{{parisData.wind.speed}} K/H </a>
+        </div>
+    </div>
+  
+    <div class="location" >
+        <div id="location"></div>
+    </div>
+  </div>
+
+</div>
+
